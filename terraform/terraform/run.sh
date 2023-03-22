@@ -41,8 +41,12 @@ rm -rf venv
 rm -rf package
 rm -rf package_temp
 
-#write a loop to check if lambda_function_reddit.zip exist
-while [ ! -f lambda_function_reddit.zip ]
+#write a loop to check if lambda_function_reddit.zip exist. after 30 secs still not found stop all execution
+for i in {1..30}
 do
-  sleep 3
+  if [ -f lambda_function_reddit.zip ]; then
+    break
+  else
+    sleep 1
+  fi
 done
