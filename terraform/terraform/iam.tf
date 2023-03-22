@@ -29,7 +29,7 @@ EOF
 }
 
 resource "aws_iam_role" "lambda_function_twitter_role" {
-  name               = "lambda_function_reddit_role"
+  name               = "lambda_function_twitter_role"
   assume_role_policy = <<EOF
 {
  "Version": "2012-10-17",

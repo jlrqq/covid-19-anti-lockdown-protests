@@ -33,6 +33,12 @@ variable "username" {
   default = "default value"
 }
 
+
+variable "bearer_token" {
+  type    = string
+  default = "default value"
+}
+
 variable "function_name" {
   type    = string
   default = "lambda_function_reddit"

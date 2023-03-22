@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Go to the lambda function directory
-cd ../code/lambda_function_reddit/
+cd ../code/${function_name}/
 
-if [ -f lambda_function_reddit.zip ]; then
-  rm lambda_function_reddit.zip
+if [ -f ${function_name}.zip ]; then
+  rm ${function_name}.zip
 fi
 
 # Check if requirements.txt exists
@@ -16,24 +16,31 @@ if [ -f requirements.txt ]; then
   pip3 install -r requirements.txt --target ./package/
 else
   # Return an error and stop execution if requirements.txt does not exist
-  echo "Error: requirements.txt not found"
+  echo "requirements.txt not found"
   exit 1
 fi
 
-#copy all files and lambda_function_reddit.py inside package to a temp folder
+#copy all files and ${function_name}.py inside package to a temp folder
 mkdir -p package_temp
 cp -r package/* package_temp
-cp lambda_function_reddit.py package_temp
-rm -r ./package_temp/pandas ./package_temp/numpy ./package_temp/*.dist-info
+cp ${function_name}.py package_temp
 
-unzip ../numpy-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl -d ./package_temp
-unzip ../pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl -d ./package_temp
+#check if directory named pandas and numpy both exist inside package_temp folder
+if [ -d ./package_temp/pandas ] && [ -d ./package_temp/numpy ]; then
+  rm -r ./package_temp/pandas ./package_temp/numpy
+  unzip ../numpy-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl -d ./package_temp
+  unzip ../pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl -d ./package_temp
+else
+  echo "pandas or numpy not found"
+fi
+
+
 rm -r ./package_temp/*.dist-info
 
-# Zip the lambda_function_reddit.py file and all files inside ./package
+# Zip the ${function_name}.py file and all files inside ./package
 cd package_temp
 
-zip -r ../lambda_function_reddit.zip ./*
+zip -r ../${function_name}.zip ./*
 
 cd ..
 # Remove the virtual environment folder
@@ -41,10 +48,10 @@ rm -rf venv
 rm -rf package
 rm -rf package_temp
 
-#write a loop to check if lambda_function_reddit.zip exist. after 30 secs still not found stop all execution
+#write a loop to check if ${function_name}.zip exist. after 30 secs still not found stop all execution
 for i in {1..30}
 do
-  if [ -f lambda_function_reddit.zip ]; then
+  if [ -f ${function_name}.zip ]; then
     break
   else
     sleep 1
