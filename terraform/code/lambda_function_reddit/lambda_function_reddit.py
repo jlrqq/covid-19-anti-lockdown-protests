@@ -2,6 +2,7 @@ import os
 import boto3
 import praw
 import pandas as pd
+import json
 
 
 # lambda_handler is the entry point for lambda function
@@ -47,3 +48,15 @@ def lambda_handler(event, context):
 
     # delete csv file from local
     os.remove('/tmp/reddit_data.csv')
+
+    return {
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        'body': json.dumps({
+            'success': True
+        }),
+        "isBase64Encoded": False
+    }
