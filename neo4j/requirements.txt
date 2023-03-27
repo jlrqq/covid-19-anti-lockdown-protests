@@ -1,0 +1,4 @@
+neo4j==5.1.0
+python-dotenv==0.21.0
+pytz==2022.4
+waiting==1.4.1
