@@ -1,28 +1,28 @@
 ,Document_No,Dominant_Topic,Topic_Perc_Contrib,Keywords,Text
-0,0,1.0,0.9078,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['covid', 'final', 'destination']"
-1,1,1.0,0.9078,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['final', 'destination', 'covid']"
-2,2,1.0,0.9507,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['sad', 'part', 'cult', 'don', 'only', 'infect']"
-3,3,1.0,0.9745,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['yike', 'give', 'prevalent', 'covid', 'there', 'significant', 'chance', 'maskless', 'mass', 'gathering', 'cause', 'die']"
-4,4,2.0,0.9097,"church, get, people, lot, flag, christian, few, event, war, say","['get', 'get', 'lose']"
-5,5,3.0,0.7525,"need, lockdown, gathering, people, put, quote, disgusting, trust, wouldn, part",['disgusting']
-6,6,1.0,0.9416,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['avoid', 'religious', 'cult', 'get', 'help']"
-7,7,2.0,0.975,"church, get, people, lot, flag, christian, few, event, war, say","['most', 'people', 'get', 'covid', 'event', 'kill', 'few', 'dozen', 'people', 'directly', 'hundred', 'indirectly']"
-8,8,0.0,0.7517,"people, lockdown, christian, anti, understand, much, logic, try, ask, kind",['ugh']
-9,9,3.0,0.896,"need, lockdown, gathering, people, put, quote, disgusting, trust, wouldn, part","['need', 'put', 'quote']"
-10,10,2.0,0.8729,"church, get, people, lot, flag, christian, few, event, war, say","['fuck', 'flag']"
-11,11,2.0,0.9917,"church, get, people, lot, flag, christian, few, event, war, say","['group', 'christian', 'seem', 'believe', 'state', 'support', 'only', 're', 'necessary', 'ingredient', 'event', 'lead', 'return', 'popular', 'interpretation', 'book', 'revelation', 'many', 'people', 'also', 'appear', 'eager', 'possibility', 'war', 'war', 'satisfy', 'end', 'prophecy', 'requirement', 'suspect', 'fly', 'israeli', 'flag', 'likely', 'subscribe', 'point', 'view']"
-12,12,1.0,0.9285,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['prison', 'too', 'good', 'guy']"
-13,13,2.0,0.3073,"church, get, people, lot, flag, christian, few, event, war, say",[]
-14,14,3.0,0.9806,"need, lockdown, gathering, people, put, quote, disgusting, trust, wouldn, part","['ironic', 'part', 'anti', 'lockdown', 'gathering', 'completely', 'legitimize', 'need', 'lockdown', 'trust', 'people', 'type', 'shit', 'wouldn', 'need', 'lockdown', 'first', 'place']"
-15,15,0.0,0.9656,"people, lockdown, christian, anti, understand, much, logic, try, ask, kind","['kind', 'logic', 'reasoning', 'people', 'capable', 'ask', 'too', 'much', 'try', 'understand']"
-16,16,1.0,0.7806,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent",['breathe']
-17,17,2.0,0.9702,"church, get, people, lot, flag, christian, few, event, war, say","['sure', 'ashame', 'few', 'hospitalize', 'there', 'aren', 'enough', 'hospital', 'bed', 'ventilator']"
-18,18,1.0,0.8699,"covid, destination, final, cult, church, good, there, gathering, significant, prevalent","['park', 'church']"
-19,19,3.0,0.9816,"need, lockdown, gathering, people, put, quote, disgusting, trust, wouldn, part","['wonderful', 'hope', 'leave', 'behind', 'itinerant', 'preacher', 'move', 'organize', 'own', 'gathering', 'time', 'week', 'bring', 'hot', 'dish', 'celebrate', 'power', 'man', 'devil']"
-20,20,2.0,0.3073,"church, get, people, lot, flag, christian, few, event, war, say",[]
-21,21,2.0,0.9873,"church, get, people, lot, flag, christian, few, event, war, say","['take', 'upvote', 'agnostic', 'left', 'church', 'flip', 'lot', 'table', 'church', 'impressive', 'figure', 'sermon', 'mount', 'good', 'ethical', 'guideline', 'disgust', 'trump', 'lot', 'church', 'right', 'christian', 'hateful', 'opportunist']"
-22,22,0.0,0.9339,"people, lockdown, christian, anti, understand, much, logic, try, ask, kind","['such', 'thing', 'anti', 'lockdown', 'christian']"
-23,23,2.0,0.9098,"church, get, people, lot, flag, christian, few, event, war, say","['news', 'say', 'hotspot']"
-24,24,0.0,0.8957,"people, lockdown, christian, anti, understand, much, logic, try, ask, kind","['reality', 'mean', 'msm']"
-25,25,2.0,0.3073,"church, get, people, lot, flag, christian, few, event, war, say",[]
-26,26,2.0,0.7853,"church, get, people, lot, flag, christian, few, event, war, say",['shepherd']
+0,0,2.0,0.8642,"church, lot, destination, final, need, lockdown, good, party, leave, figure","['final', 'destination']"
+1,1,2.0,0.8642,"church, lot, destination, final, need, lockdown, good, party, leave, figure","['final', 'destination']"
+2,2,0.0,0.9204,"prevalent, chance, mass, significant, yike, die, cause, give, gathering, maskless","['sad', 'part', 'cult', 'infect']"
+3,3,0.0,0.9661,"prevalent, chance, mass, significant, yike, die, cause, give, gathering, maskless","['yike', 'give', 'prevalent', 'significant', 'chance', 'maskless', 'mass', 'gathering', 'cause', 'die']"
+4,4,1.0,0.8991,"people, get, event, need, flag, view, appear, ingredient, group, interpretation","['get', 'get', 'lose']"
+5,5,2.0,0.7712,"church, lot, destination, final, need, lockdown, good, party, leave, figure",['disgusting']
+6,6,3.0,0.924,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['avoid', 'religious', 'cult', 'help']"
+7,7,1.0,0.9631,"people, get, event, need, flag, view, appear, ingredient, group, interpretation","['people', 'get', 'event', 'kill', 'dozen', 'people', 'directly', 'hundred', 'indirectly']"
+8,8,2.0,0.7712,"church, lot, destination, final, need, lockdown, good, party, leave, figure",['ugh']
+9,9,1.0,0.8991,"people, get, event, need, flag, view, appear, ingredient, group, interpretation","['need', 'put', 'quote']"
+10,10,3.0,0.8621,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['fuck', 'flag']"
+11,11,1.0,0.9889,"people, get, event, need, flag, view, appear, ingredient, group, interpretation","['group', 'seem', 'believe', 'support', 'necessary', 'ingredient', 'event', 'lead', 'return', 'popular', 'interpretation', 'book', 'revelation', 'many', 'people', 'appear', 'eager', 'possibility', 'war', 'satisfy', 'end', 'prophecy', 'requirement', 'suspect', 'fly', 'israeli', 'flag', 'likely', 'subscribe', 'point', 'view']"
+12,12,1.0,0.8991,"people, get, event, need, flag, view, appear, ingredient, group, interpretation","['prison', 'good', 'guy']"
+13,13,2.0,0.2724,"church, lot, destination, final, need, lockdown, good, party, leave, figure",[]
+14,14,2.0,0.9797,"church, lot, destination, final, need, lockdown, good, party, leave, figure","['ironic', 'part', 'anti', 'gathering', 'completely', 'legitimize', 'need', 'lockdown', 'trust', 'people', 'type', 'shit', 'need', 'lockdown', 'first', 'place']"
+15,15,3.0,0.9642,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['kind', 'logic', 'reason', 'people', 'capable', 'ask', 'much', 'try', 'understand']"
+16,16,0.0,0.7569,"prevalent, chance, mass, significant, yike, die, cause, give, gathering, maskless",['breathe']
+17,17,3.0,0.9545,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['sure', 'ashame', 'hospitalize', 'enough', 'hospital', 'bed', 'ventilator']"
+18,18,3.0,0.862,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['park', 'church']"
+19,19,3.0,0.9765,"gathering, hoping, organize, week, preacher, wonderful, bring, hot, celebrate, dish","['wonderful', 'hoping', 'leave', 'itinerant', 'preacher', 'move', 'organize', 'gathering', 'time', 'week', 'bring', 'hot', 'dish', 'celebrate']"
+20,20,2.0,0.2724,"church, lot, destination, final, need, lockdown, good, party, leave, figure",[]
+21,21,2.0,0.9819,"church, lot, destination, final, need, lockdown, good, party, leave, figure","['agnostic', 'leave', 'flip', 'lot', 'table', 'church', 'impressive', 'figure', 'good', 'ethical', 'guideline', 'disgust', 'party', 'lot', 'church', 'right', 'hateful', 'opportunist']"
+22,22,2.0,0.2724,"church, lot, destination, final, need, lockdown, good, party, leave, figure",[]
+23,23,0.0,0.8975,"prevalent, chance, mass, significant, yike, die, cause, give, gathering, maskless","['news', 'say', 'hotspot']"
+24,24,0.0,0.8975,"prevalent, chance, mass, significant, yike, die, cause, give, gathering, maskless","['reality', 'mean', 'msm']"
+25,25,2.0,0.2724,"church, lot, destination, final, need, lockdown, good, party, leave, figure",[]
+26,26,2.0,0.7712,"church, lot, destination, final, need, lockdown, good, party, leave, figure",['shepherd']

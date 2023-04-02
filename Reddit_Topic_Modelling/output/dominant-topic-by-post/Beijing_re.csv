@@ -1,44 +1,44 @@
 ,Document_No,Dominant_Topic,Topic_Perc_Contrib,Keywords,Text
-0,0,3.0,0.9405,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['re', 'so', 'different', 'all']"
-1,1,2.0,0.9577,"covid, try, lockdown, people, delete, keep, know, world, die, say","['free', 'prejudice', 'hate', 'equally', 'field']"
-2,2,2.0,0.3471,"covid, try, lockdown, people, delete, keep, know, world, die, say",[]
-3,3,0.0,0.9497,"lockdown, people, never, do, just, test, case, good, well, now","['see', 'similar', 'headline', 'year', 'ago']"
-4,4,2.0,0.948,"covid, try, lockdown, people, delete, keep, know, world, die, say","['pretty', 'much', 'lockdown', 'end']"
-5,5,0.0,0.9885,"lockdown, people, never, do, just, test, case, good, well, now","['never', 'lockdown', 'edit', 'true', 'never', 'lockdown', 'leave', 'house', 'go', 'meet', 'friend', 'park', 'go', 'shopping', 'visit', 'parent', 're', 'do', 'just', 'soft', 'shutdown', 'call', 'lockdown']"
-6,6,1.0,0.7878,"people, even, clean, corona, bad, well, face, water, toilet, access",['probably']
-7,7,0.0,0.9935,"lockdown, people, never, do, just, test, case, good, well, now","['literally', 'whole', 'world', 'say', 'out', 'lockdown', 'omicron', 'prepared', 'perpetually', 'lockdown', 'forever', 'good', 'thing', 'now', 'case', 'low', 'ramp', 'icu', 'bed', 'ramp', 'vaccination', 'good', 'vaccine', 'stock', 'prepare', 'wave', 'sadly', 'never', 'literally', 'tie', 'covid', 'own', 'political', 'legacy', 'never', 'recognise', 'rectify', 'suck', 'long', 'long', 'time']"
-8,8,2.0,0.8321,"covid, try, lockdown, people, delete, keep, know, world, die, say",['delete']
-9,9,2.0,0.8321,"covid, try, lockdown, people, delete, keep, know, world, die, say",['delete']
-10,10,2.0,0.9944,"covid, try, lockdown, people, delete, keep, know, world, die, say","['know', 'whole', 'world', 'tell', 'world', 'response', 'pandemic', 'absolutely', 'disastrous', 'here', 'people', 'die', 'covid', 'die', 'yesterday', 'only', 'reason', 're', 'fully', 'unrestricted', 've', 'just', 'convince', 'many', 'people', 'die', 'covid', 'fine', 'kid', 'wish', 'do', 'as', 'well', 'keep', 'infection', 'think', 'look', 'nose', 'right', 'now']"
-11,11,0.0,0.9905,"lockdown, people, never, do, just, test, case, good, well, now","['libertarian', 'know', 'choose', 'force', 'people', 'lockdown', 'instead', 'just', 'mandate', 'vaccination', 'use', 'power', 'state', 'compel', 'compliance', 'lockdown', 'way', 'more', 'heavyhande', 'certainly', 'implement', 'just', 'shitty', 'policy', 'point', 'isn', 'coherent', 'ideology']"
-12,12,2.0,0.9577,"covid, try, lockdown, people, delete, keep, know, world, die, say","['stupid', 'chinese', 'covid', 'vaccine', 'work']"
-13,13,3.0,0.969,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['policy', 'covid', 'outdate', 'doesn', 'stop', 'spread', 'new', 'variant']"
-14,14,0.0,0.9678,"lockdown, people, never, do, just, test, case, good, well, now","['absolutely', 'problem', 'well', 'lockdown', 'work', 'few', 'people', 'vaccinate']"
-15,15,3.0,0.9842,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['disappear', 'whistleblower', 'scientist', 'doctor', 'raise', 'alarm', 'spread', 'covid', 'farth', 'reach', 'globe', 'then', 'enact', 'covid', 'domestic', 'policy']"
-16,16,1.0,0.9146,"people, even, clean, corona, bad, well, face, water, toilet, access","['task', 'fail', 'successfully']"
-17,17,0.0,0.9911,"lockdown, people, never, do, just, test, case, good, well, now","['post', 'update', 'bar', 'license', 'revoke', 'there', 'now', 'criminal', 'case', 'owner', 'apparently', 'suppose', 'test', 'day', 'bar', 'suppose', 'check', 'proof', 'test', 'let', 'weren', 'do', 'there', 'accord', 'post', 'outbreak', 'trigger', 'hadn', 'test', 'day']"
-18,18,0.0,0.9799,"lockdown, people, never, do, just, test, case, good, well, now","['least', 'do', 'well', 'lose', 'million', 'people', 'think', 'past', 'lockdown', 'extremely', 'good', 'delta', 'wave']"
-19,19,2.0,0.9831,"covid, try, lockdown, people, delete, keep, know, world, die, say","['big', 'problem', 'try', 'tell', 'people', 'food', 'more', 'day', 'lockdown', 'week', 'reaction', 'very', 'nice']"
-20,20,1.0,0.9814,"people, even, clean, corona, bad, well, face, water, toilet, access","['bad', 'shitty', 'sanitation', 'as', 'well', 'people', 'access', 'toilet', 'clean', 'water', 'reckon', 'big', 'problem', 'face', 'corona']"
-21,21,2.0,0.8321,"covid, try, lockdown, people, delete, keep, know, world, die, say",['delete']
-22,22,2.0,0.9907,"covid, try, lockdown, people, delete, keep, know, world, die, say","['vacinate', 'yet', 'lockdown', 'situation', 'make', 'sense', 'want', 'lock', 'forever', 'closed', 'border', 'globalized', 'economy', 'covid', 'find', 'way', 'again', 'no', 'matter', 'much', 'try', 'keep', 'vacine', 'effective']"
-23,23,3.0,0.975,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['remarkable', 'read', 'people', 'say', 'fuck', 'covid', 'response', 'live', 'alternate', 'reality']"
-24,24,2.0,0.9781,"covid, try, lockdown, people, delete, keep, know, world, die, say","['even', 'more', 'remarkable', 'try', 'keep', 'covid', 'try', 'soak', 'ocean', 'sponge']"
-25,25,2.0,0.9644,"covid, try, lockdown, people, delete, keep, know, world, die, say","['re', 'fucking', 'now', 'consider', 'change', 'condition']"
-26,26,2.0,0.9729,"covid, try, lockdown, people, delete, keep, know, world, die, say","['just', 'people', 'say', 'literally', 'country', 'world', 'say', 'action']"
-27,27,2.0,0.9729,"covid, try, lockdown, people, delete, keep, know, world, die, say","['fuck', 'pretend', 'avoid', 'forever', 'aren', 'push', 'vaccine', 'meantime']"
-28,28,1.0,0.986,"people, even, clean, corona, bad, well, face, water, toilet, access","['coworker', 'able', 'just', 'come', 'home', 'tell', 'even', 'people', 'mad', 'take', 'tiny', 'chance', 'get', 'covid', 'even', 'die', 'live', 'actual', 'prison', 'state']"
-29,29,2.0,0.948,"covid, try, lockdown, people, delete, keep, know, world, die, say","['so', 'many', 'way', 'fuck']"
-30,30,2.0,0.9729,"covid, try, lockdown, people, delete, keep, know, world, die, say","['learn', 'valuable', 'lesson', 'regard', 'covid', 'control', 'never', 'try']"
-31,31,1.0,0.9146,"people, even, clean, corona, bad, well, face, water, toilet, access","['social', 'credit', 'point']"
-32,32,3.0,0.9648,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['certain', 'point', 're', 'go', 'able', 'dumb', 'anymore']"
-33,33,3.0,0.9884,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['apathy', 'new', 'pandemic', 'give', 'shit', 'anymore', 'sad', 'people', 'still', 'die', 'people', 'fight', 'put', 'piece', 'fabric', 'mouth', 'nose', 'simple', 'thing', 'help', 'combat', 'covid']"
-34,34,3.0,0.8079,"covid, reliable, re, source, people, policy, spread, sweet, so, news",['nottheonion']
-35,35,2.0,0.8321,"covid, try, lockdown, people, delete, keep, know, world, die, say",['irony']
-36,36,1.0,0.8783,"people, even, clean, corona, bad, well, face, water, toilet, access","['ugh', 'blow']"
-37,37,3.0,0.9405,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['so', 'believe', 'news', 'come']"
-38,38,3.0,0.9592,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['just', 'find', 'partier', 'lock', 'life', 'right']"
-39,39,2.0,0.9831,"covid, try, lockdown, people, delete, keep, know, world, die, say","['see', 'come', 'conclusion', 'know', 'covid', 'immensely', 'stupid', 'motive', 'fact', 'know', 'unstoppable', 'lockdown', 'else']"
-40,40,3.0,0.9516,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['sweet', 'sweet', 'more', 'covid', 'unsurprised']"
-41,41,3.0,0.9947,"covid, reliable, re, source, people, policy, spread, sweet, so, news","['comment', 'automatically', 'remove', 'link', 'source', 'reliable', 'dedicate', 'mostly', 'political', 'coverage', 'otherwise', 'break', 'high', 'quality', 'source', 'rule', 'possible', 're', 'submit', 'link', 'reliable', 'non', 'political', 'source', 'such', 'reliable', 'news', 'organization', 'recognize', 'institution', 'thank', 'help', 'keep', 'information', 'coronavirus', 'reliable', 'bot', 'action', 'perform', 'automatically', 'contact', 'moderator', 'subreddit', 'message', 'compose', 'coronavirus', 'question', 'concern']"
-42,42,0.0,0.9836,"lockdown, people, never, do, just, test, case, good, well, now","['covid', 'policy', 'terrible', 'cause', 'lot', 'social', 'economic', 'problem', 'people', 'lose', 'income', 'lockdown', 'get', 'food', 'bad', 'case']"
+0,0,1.0,0.7896,"people, die, keep, say, sweet, world, try, nose, social, action",['different']
+1,1,1.0,0.9464,"people, die, keep, say, sweet, world, try, nose, social, action","['free', 'prejudice', 'hate', 'equally', 'field']"
+2,2,0.0,0.2672,"people, come, policy, know, spread, able, live, even, tell, try",[]
+3,3,3.0,0.9495,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['see', 'similar', 'headline', 'year', 'ago']"
+4,4,2.0,0.9184,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['pretty', 'much', 'lockdown']"
+5,5,3.0,0.9835,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['never', 'edit', 'true', 'never', 'leave', 'house', 'meet', 'friend', 'park', 'grocery', 'shopping', 'visit', 'parent', 'soft', 'shutdown', 'call']"
+6,6,3.0,0.8019,"never, reliable, delete, political, test, source, vaccine, post, prepare, good",['probably']
+7,7,3.0,0.9916,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['literally', 'whole', 'world', 'say', 'prepare', 'perpetually', 'forever', 'good', 'case', 'low', 'ramp', 'icu', 'bed', 'ramp', 'vaccination', 'good', 'vaccine', 'prepare', 'wave', 'sadly', 'never', 'literally', 'tie', 'political', 'legacy', 'never', 'recognise', 'rectify', 'suck', 'long', 'long', 'time']"
+8,8,3.0,0.8019,"never, reliable, delete, political, test, source, vaccine, post, prepare, good",['delete']
+9,9,3.0,0.8019,"never, reliable, delete, political, test, source, vaccine, post, prepare, good",['delete']
+10,10,1.0,0.9891,"people, die, keep, say, sweet, world, try, nose, social, action","['know', 'whole', 'world', 'tell', 'response', 'absolutely', 'disastrous', 'people', 'die', 'die', 'yesterday', 'reason', 'fully', 'unrestricted', 'convince', 'many', 'people', 'die', 'fine', 'wish', 'keep', 'infection', 'think', 'look', 'nose', 'right']"
+11,11,2.0,0.9877,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['libertarian', 'socialist', 'know', 'choose', 'force', 'people', 'instead', 'mandate', 'vaccination', 'use', 'power', 'state', 'compliance', 'lockdown', 'way', 'heavyhande', 'certainly', 'implement', 'policy', 'point', 'coherent', 'ideology']"
+12,12,3.0,0.938,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['stupid', 'chinese', 'vaccine', 'work']"
+13,13,0.0,0.9577,"people, come, policy, know, spread, able, live, even, tell, try","['policy', 'outdated', 'stop', 'spread', 'new', 'variant']"
+14,14,2.0,0.9627,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['absolutely', 'problem', 'well', 'work', 'few', 'people', 'vaccinate']"
+15,15,0.0,0.9799,"people, come, policy, know, spread, able, live, even, tell, try","['disappear', 'whistleblower', 'scientist', 'doctor', 'raise', 'alarm', 'spread', 'farth', 'reach', 'globe', 'enact', 'domestic', 'policy']"
+16,16,2.0,0.9184,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['task', 'fail', 'successfully']"
+17,17,3.0,0.9889,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['scmp', 'post', 'update', 'bar', 'license', 'revoke', 'criminal', 'case', 'owner', 'apparently', 'suppose', 'test', 'day', 'bar', 'suppose', 'check', 'proof', 'test', 'accord', 'post', 'outbreak', 'trigger', 'test', 'day']"
+18,18,0.0,0.974,"people, come, policy, know, spread, able, live, even, tell, try","['least', 'well', 'lose', 'million', 'people', 'think', 'extremely', 'good', 'delta', 'wave']"
+19,19,0.0,0.974,"people, come, policy, know, spread, able, live, even, tell, try","['big', 'problem', 'try', 'tell', 'people', 'food', 'day', 'week', 'reaction', 'nice']"
+20,20,2.0,0.9758,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['bad', 'shitty', 'sanitation', 'people', 'access', 'toilet', 'clean', 'reckon', 'big', 'problem', 'face']"
+21,21,3.0,0.8019,"never, reliable, delete, political, test, source, vaccine, post, prepare, good",['delete']
+22,22,0.0,0.9868,"people, come, policy, know, spread, able, live, even, tell, try","['chinese', 'vacinate', 'situation', 'make', 'sense', 'want', 'lock', 'forever', 'close', 'border', 'globalize', 'economy', 'find', 'way', 'matter', 'much', 'try', 'keep', 'vacine', 'effective']"
+23,23,0.0,0.9678,"people, come, policy, know, spread, able, live, even, tell, try","['remarkable', 'read', 'people', 'fucking', 'response', 'live', 'alternate', 'reality']"
+24,24,1.0,0.9656,"people, die, keep, say, sweet, world, try, nose, social, action","['even', 'remarkable', 'try', 'keep', 'try', 'soak', 'ocean', 'sponge']"
+25,25,2.0,0.9371,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['fucking', 'consider', 'change', 'condition']"
+26,26,1.0,0.961,"people, die, keep, say, sweet, world, try, nose, social, action","['people', 'say', 'literally', 'country', 'world', 'say', 'action']"
+27,27,2.0,0.9627,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['fucking', 'pretend', 'avoid', 'forever', 'push', 'vaccine', 'meantime']"
+28,28,0.0,0.9835,"people, come, policy, know, spread, able, live, even, tell, try","['able', 'come', 'home', 'tell', 'even', 'people', 'mad', 'tiny', 'chance', 'get', 'even', 'die', 'live', 'actual', 'prison', 'state']"
+29,29,2.0,0.9184,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['many', 'way', 'fuck']"
+30,30,3.0,0.9632,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['learn', 'valuable', 'lesson', 'regard', 'control', 'never', 'try']"
+31,31,1.0,0.9146,"people, die, keep, say, sweet, world, try, nose, social, action","['social', 'credit', 'point']"
+32,32,0.0,0.9577,"people, come, policy, know, spread, able, live, even, tell, try","['certain', 'point', 'go', 'able', 'dumb', 'anymore']"
+33,33,1.0,0.9843,"people, die, keep, say, sweet, world, try, nose, social, action","['apathy', 'new', 'give', 'shit', 'anymore', 'sad', 'people', 'die', 'people', 'fight', 'put', 'piece', 'fabric', 'nose', 'simple', 'thing', 'help', 'combat']"
+34,34,2.0,0.7991,"people, problem, fucking, lockdown, way, big, work, bad, face, clean",['nottheonion']
+35,35,3.0,0.8019,"never, reliable, delete, political, test, source, vaccine, post, prepare, good",['irony']
+36,36,2.0,0.884,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['ugh', 'blow']"
+37,37,0.0,0.92,"people, come, policy, know, spread, able, live, even, tell, try","['believe', 'news', 'come']"
+38,38,2.0,0.9488,"people, problem, fucking, lockdown, way, big, work, bad, face, clean","['find', 'partier', 'lock', 'life', 'right']"
+39,39,0.0,0.9763,"people, come, policy, know, spread, able, live, even, tell, try","['come', 'conclusion', 'know', 'immensely', 'stupid', 'motive', 'fact', 'know', 'unstoppable', 'lockdown', 'else']"
+40,40,1.0,0.9146,"people, die, keep, say, sweet, world, try, nose, social, action","['sweet', 'sweet', 'unsurprise']"
+41,41,3.0,0.9943,"never, reliable, delete, political, test, source, vaccine, post, prepare, good","['comment', 'automatically', 'remove', 'link', 'source', 'either', 'reliable', 'dedicated', 'mostly', 'political', 'coverage', 'otherwise', 'break', 'high', 'quality', 'source', 'rule', 'possible', 'submit', 'link', 'reliable', 'non', 'political', 'source', 'reliable', 'news', 'organization', 'recognize', 'institution', 'thank', 'help', 'keep', 'information', 'coronavirus', 'reliable', 'bot', 'action', 'perform', 'automatically', 'contact', 'moderator', 'subreddit', 'message', 'compose', 'coronavirus', 'question', 'concern']"
+42,42,0.0,0.9813,"people, come, policy, know, spread, able, live, even, tell, try","['policy', 'china', 'terrible', 'cause', 'lot', 'social', 'economic', 'problem', 'people', 'lose', 'income', 'food', 'bad', 'case']"
