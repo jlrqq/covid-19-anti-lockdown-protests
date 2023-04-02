@@ -21,8 +21,18 @@ terraform/terraform/var.tfvars
 terraform/terraform/last-sem-key-pair.pem
 .ipynb_checkpoints/Twitter Text Sentiment Analysis (Mar)-checkpoint.ipynb
 
-# Ignore all csv file
-*.csv
-
 # Ignore all zip file
 *.zip
+
+.ipynb_checkpoints/
+
+# Ignore all under ipynb_checkpoints in all subfoloder
+**/.ipynb_checkpoints/
+.ipynb_checkpoints
+
+
+
+
+
+Infrastructure/terraform/last-sem-key-pair.pem
+Infrastructure/terraform/var.tfvars

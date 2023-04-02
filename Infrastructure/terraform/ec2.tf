@@ -73,10 +73,18 @@ resource "aws_instance" "is434-ec2-neo4j-instance" {
   tags = {
     Name = "IS434 Neo4J EC2"
   }
-
 }
 
-output "instance_ip" {
-  value = aws_instance.is434-ec2-neo4j-instance.public_ip
+# create another ec2 with empty ubuntu image
+resource "aws_instance" "analysis-compute-service" {
+  ami                         = "ami-007855ac798b5175e"
+  instance_type               = "t2.micro"
+  vpc_security_group_ids      = [aws_security_group.aws_sg.id]
+  associate_public_ip_address = true
+  key_name                    = aws_key_pair.key_pair.key_name
+  tags = {
+    Name = "IS434 Neo4J EC2"
+  }
 }
+
 
