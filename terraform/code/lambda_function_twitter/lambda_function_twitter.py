@@ -39,15 +39,17 @@ def lambda_handler(event, context):
     # delete csv file from local
     os.remove('/tmp/tweeter_data.csv')
 
-    return {
+    response = {
         'statusCode': 200,
-        'headers': {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        },
+        'headers':
+            {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Headers': 'Content-Type'
+            },
         'body': json.dumps({
             'success': True
         }),
-        "isBase64Encoded": False
-    }
+        }
+    
+    return response
 

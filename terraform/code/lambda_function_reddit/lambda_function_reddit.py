@@ -49,14 +49,15 @@ def lambda_handler(event, context):
     # delete csv file from local
     os.remove('/tmp/reddit_data.csv')
 
-    return {
+    response = {
         'statusCode': 200,
-        'headers': {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        },
-        'body': json.dumps({
-            'success': True
-        }),
-        "isBase64Encoded": False
+        'headers':
+            {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Headers': 'Content-Type'
+            },
+        'body': json.dumps('Success')
     }
+
+    # stringify the response
+    return response
