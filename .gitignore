@@ -18,3 +18,11 @@ venv/
 
 # Ignore Terraform variables
 terraform/terraform/var.tfvars
+terraform/terraform/last-sem-key-pair.pem
+.ipynb_checkpoints/Twitter Text Sentiment Analysis (Mar)-checkpoint.ipynb
+
+# Ignore all csv file
+*.csv
+
+# Ignore all zip file
+*.zip
