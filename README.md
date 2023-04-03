@@ -41,11 +41,11 @@ go install
 Finally, make sure that the terraform binary is available on your PATH. This process will differ depending on your operating system.
 
 ### [AWS SDK](https://aws.amazon.com/sdk-for-javascript/)
-Installing the SDK for JavaScript
+Install the SDK for JavaScript
 ```
 npm install aws-sdk
 ```
-Set tempoaray credentials in the AWS credentials profile file on your local system, located at:
+Set temporary credentials in the AWS credentials profile file on your local system, located at:
 
 - ~/.aws/credentials on Linux, macOS, or Unix
 - C:\Users\USERNAME\.aws\credentials on Windows
@@ -76,7 +76,7 @@ cd Infrastructure/terraform
 ### Dependencies Pre-installed
 Unfortunately, AWS Lambda has a bad integration with Pandas and Numpy libraries as the version required is different from the same version of python 3.9. 
 
-This project will help you with the installation of the dependencies required for the project. And it will also help you to create the AWS Lambda that is able to execute the code. 
+This guide will help you with the installation of the dependencies required for the project and it will also help you to create the AWS Lambda that is able to execute the code. 
 
 For the details, you may refer to [./Infrastructure/terraform/README.md](./Infrastructure/terraform/README.md)
 
