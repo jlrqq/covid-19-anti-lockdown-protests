@@ -31,33 +31,32 @@ class App:
     def generate_query_and_run(tx, reddit):
         # To learn more about the Cypher syntax, see https://neo4j.com/docs/cypher-manual/current/
         # The Reference Card is also a good resource for keywords https://neo4j.com/docs/cypher-refcard/current/
-        reddit["created_at"] = datetime.strptime(reddit["datetime"], '%Y-%m-%d %H:%M:%S%z') 
-        
+        reddit["created_at"] = datetime.strptime(reddit["timestamp"], '%Y-%m-%d %H:%M:%S') 
         query = """
                 CREATE(r:Reddit_post) 
-                SET r.id = $id, r.title = $title, r.score = $score, 
-                r.comms_num = $comms_num, r.datetime = datetime($timestamp) 
-                MERGE(u:RUser{username:$author}) CREATE (u)-[:Post {date:datetime($timestamp)}]->(r)
+                SET r.id = $id, r.title = $title, r.score = $score, r.url = $url, 
+                r.comms_num = $comms_num, r.datetime = datetime($created_at) 
+                MERGE(u:RUser{username:$author}) CREATE (u)-[:Post {date:datetime($created_at)}]->(r)
                 """
         
-        if reddit["comment"]:
-            query += """
-                    MERGE(rc:Reddit_comment{comment:$comment, top_lvl:$top_lvl, sentiment_score = $sentiment_polarity, sentiment_label = $sentiment_polarity_summary}) 
-                    CREATE (rc)-[:IsComment {date:datetime($timestamp)}]->(r)                      
-                    MERGE(top_e:Emotion{emotion:$top_emotion}) 
-                    CREATE (rc)-[:HasTopEmotion {score:$top_emotion_score}]->(top_e) 
-                    MERGE(sec_e:Emotion{emotion:$second_emotion}) 
-                    CREATE (rc)-[:HasSecEmotion {score:$second_emotion_score}]->(sec_e) 
-                    MERGE(thi_e:Emotion{emotion:$third_emotion}) 
-                    CREATE (rc)-[:HasThiEmotion {score:$third_emotion_score}]->(thi_e) 
-                    MERGE(topic:Topic{timeframe_topic_id:$dominant_topic, keywords:$keywords}) 
-                    CREATE (rc)-[:HasDominantTopic {score:$topic_perc_contrib}]->(topic) 
-                    """       
-            if reddit["commenter"]:
-                query += """
-                        MERGE(cu:RUser{username:$commenter}) 
-                        CREATE (cu)-[:Comment {date:datetime($timestamp)}]->(rc)
-                        """
+        # if reddit["comment"]:
+        #     query += """
+        #             MERGE(rc:Reddit_comment{comment:$comment, top_lvl:$top_lvl, sentiment_score = $sentiment_polarity, sentiment_label = $sentiment_polarity_summary}) 
+        #             CREATE (rc)-[:IsComment {date:datetime($created_at)}]->(r)                      
+        #             MERGE(top_e:Emotion{emotion:$top_emotion}) 
+        #             CREATE (rc)-[:HasTopEmotion {score:$top_emotion_score}]->(top_e) 
+        #             MERGE(sec_e:Emotion{emotion:$second_emotion}) 
+        #             CREATE (rc)-[:HasSecEmotion {score:$second_emotion_score}]->(sec_e) 
+        #             MERGE(thi_e:Emotion{emotion:$third_emotion}) 
+        #             CREATE (rc)-[:HasThiEmotion {score:$third_emotion_score}]->(thi_e) 
+        #             MERGE(topic:Topic{timeframe_topic_id:$dominant_topic, keywords:$keywords}) 
+        #             CREATE (rc)-[:HasDominantTopic {score:$topic_perc_contrib}]->(topic) 
+        #             """       
+        #     if reddit["commenter"]:
+        #         query += """
+        #                 MERGE(cu:RUser{username:$commenter}) 
+        #                 CREATE (cu)-[:Comment {date:datetime($created_at)}]->(rc)
+        #                 """
         result = tx.run(query, reddit)   
         
         try:
@@ -82,7 +81,7 @@ if __name__ == "__main__":
     uri = os.getenv("NEO4J_HOST")
     user = '' # os.getenv("NEO4J_USER")
     password = '' # os.getenv("NEO4J_PASSWORD")
-    filename = "./reddits_upload.json"
+    filename = "./reddits_upload_simple.json"
 
     data = loadJson(filename)
     
