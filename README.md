@@ -16,8 +16,8 @@ The objective of our analysis will cover Social Network Analysis to understand t
 - Scraped from Reddit API
 - Scraped from Weibo
 
-# Getting Start
-## Prerequisites
+# Get Started
+## Pre-requisites
 
 ### [python](<https://python.org>)
 
@@ -88,7 +88,7 @@ Please note that the version must be 1.24.2 with cp38 with manylinux
 `
 
 `
-for example: pandas-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+For Example: pandas-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 `
 
 Download numpy from [here](https://pypi.org/project/numpy/#files)
@@ -110,7 +110,7 @@ Once the package is downloaded, you may move the documents to the ./Infrastructu
 cp var.tfvars.example var.tfvars
 ```
 
-2. Initalied terraform
+2. Initialize terraform
 ```
 terraform init
 ```
