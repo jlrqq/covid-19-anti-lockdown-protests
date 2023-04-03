@@ -1,18 +1,15 @@
-# covid-19-anti-lockdown-protests
-Covers Social Network Analysis and Text Sentiment Analysis.
+<h2 align='center'> 🔒🦠 COVID19 Anti-Lockdown 🦠🔒 </h2>
 
 ## Business Problem Overview
-
 - As COVID-19 spreads across the globe, many countries have instituted measures on freedom of movement to control the spread of the disease. For instance, citizens are not allowed to leave their homes except for work or buying essential supplies. With an individualistic culture in the US, several major protests were observed by libertarian supporters protecting individual freedoms. 
-- Therefore, we would like to explore the topic of Anti-Lockdown Protests to understand how the general public are reacting and whether there is a correlation between lockdown protests and viral transmission. Our guiding questions include:
-  - What are the key motivations and beliefs driving anti-lockdown protests, and how do they vary across different regions?
-  - How do these protests provide insights into how social media platforms coordinate and amplify protest messages?
-  - Optional: How do different governments respond to protest messages online? 
-  - Rewrite suggestions: 
+- Therefore, we would like to explore the topic of Anti-Lockdown to understand how the general public are reacting to covid19 lockdown policies. Our guiding questions include:
     - What are the sentiments and key topics social media users typically communicate after a lockdown policy is enforced? How have the sentiments and discussion topics changed overtime?
     - How are the negative sentiments towards COVID-19 lockdown circulated on social media platforms such as Twitter and Reddit?
     - Case study: One of the more brutal approaches to COVID-19 lockdown is from China’s government. What are the discussion topics and sentiments towards this policy on their social media platform, Weibo? How does it differ from Twitter (a more unfiltered platform)? 
-  - Our main intended audience are public health officials and policymakers. The insights derived from our guiding questions will help officials and policymakers to understand factors that drive resistance and craft more effective communication strategies. 
+  - Our main intended audience are policymakers. The insights derived from our guiding questions will help policymakers to understand factors that drive resistance and craft more effective communication strategies. 
+
+## Objective 
+The objective of our analysis will cover Social Network Analysis to understand the network of users spreading negative sentiments, Text Sentiment Analysis to understand the different emotions faced by affected users and key occurring topics users to understand the discussions surrounding this topic on the social media platforms.
 
 ## Data Set
 - Generated through twitter API
