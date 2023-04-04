@@ -1,6 +1,6 @@
-<h2 align='center'> 🔒🦠 COVID19 Anti-Lockdown 🦠🔒 </h2>
+<h2 align='center'> 🔒🦠 COVID-19 Anti-Lockdown 🦠🔒 </h2>
 
-## Business Problem Overview
+## Business Problem
 - As COVID-19 spreads across the globe, many countries have instituted measures on freedom of movement to control the spread of the disease. For instance, citizens are not allowed to leave their homes except for work or buying essential supplies. With an individualistic culture in the US, several major protests were observed by libertarian supporters protecting individual freedoms. 
 - Therefore, we would like to explore the topic of Anti-Lockdown to understand how the general public are reacting to covid19 lockdown policies. Our guiding questions include:
     - What are the sentiments and key topics social media users typically communicate after a lockdown policy is enforced? How have the sentiments and discussion topics changed overtime?
@@ -13,11 +13,11 @@ The objective of our analysis will cover Social Network Analysis to understand t
 
 ## Data Set Collection
 - Scraped from Twitter API, Snscrape
-- Scraped from Reddit
+- Scraped from Reddit API
 - Scraped from Weibo
 
-# Getting Start
-## Prerequisites
+# Getting Started
+## Pre-requisites
 
 ### [python](<https://python.org>)
 
