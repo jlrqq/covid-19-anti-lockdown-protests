@@ -189,5 +189,5 @@ graph LR
 ### 4. Load Data and Run to Neo4J:
 - Prepare json data, run `./neo4j/Prepare json data to push to neo4j.ipynb`
 - Push json data, run `./neo4j/load_to_neo4j_reddit.py` and `./neo4j/load_to_neo4j_twitter.py`
-- View on neodash: go to https://neodash.graphapp.io/and load graphs from `./neo4j/dashboard_load_neodash.json`
+- View on neodash: go to http://neodash.graphapp.io/and load graphs from `./neo4j/dashboard_load_neodash.json`
 - If you wish to run the code on our Neo4j database, please contact Jason at jasongu9911@outlook.com for secret key.
