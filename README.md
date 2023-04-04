@@ -141,3 +141,45 @@ this will start a jupyter notebook server at http://localhost:8888
 
 ### Use Google Colab
 - [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
+
+Sequence for Running of Files:
+
+Lockdown Start Dates.ipynb
+
+Twitter:
+```mermaid
+graph TD
+    A[Twitter Scrape.ipynb] --> B[Twitter Scrape Time Frame.ipynb]
+    B --> C[Twitter Text Sentiment Analysis_Mar_2023.ipynb]
+    B --> D[Twitter Text Sentiment Analysis_Jan_Mar.ipynb]
+    B --> E[Twitter Text Sentiment Analysis_Mar.ipynb]
+    B --> F[Twitter Text Sentiment Analysis_May_Nov.ipynb]
+    C & D & E & F --> G[Timeline Analysis for Twitter Sentiments.ipynb]
+    G --> H[Twitter Sentiment Analyzer Confusion Matrix.ipynb]
+    H --> I[Twitter_Specific_Sentiment_Emotion.ipynb]
+    I --> J[Twitter_TopicModelling.ipynb]
+    J --> K[Weibo_TopicModelling.ipynb]
+
+```
+
+Reddit:
+- Reddit Scrape.ipynb
+- Reddit Scrape Comments.ipynb
+- Text Sentiment Analysis.ipynb (in Reddit_Sentiments folder)
+- timeline.ipynb (in Reddit_Sentiments folder)
+- visualise_anti-lockdown.ipynb (in Reddit_Sentiments folder)
+- visualise_corona.ipynb (in Reddit_Sentiments folder)
+- visualise_covid19.ipynb (in Reddit_Sentiments folder)
+- neg_anti_wordcloud (in Reddit_Wordcloud Folder)
+- neg_corona_wordcloud (in Reddit_Wordcloud Folder)
+- neg_covid_wordcloud (in Reddit_Wordcloud Folder)
+- Reddit Social Network Analysis (Subreddits - Covid19 Lockdown).ipynb
+- Reddit Social Network Analysis (Subreddits - Corona Lockdown).ipynb
+- Reddit Social Network Analysis (Subreddits - Corona Anti Lockdown).ipynb
+- Reddit Social Network Analysis (Users - Covid19 Lockdown).ipynb
+- Reddit Social Network Analysis (Users - Corona Lockdown).ipynb
+- Reddit Social Network Analysis (Users - Corona Anti-Lockdown).ipynb
+- Reddit Sentiment Analyzer Confusion Matrix.ipynb
+- Reddit_Specific_Sentiment_Emotion.ipynb
+- Reddit_TopicModelling_Overall.ipynb
+- Reddit_TopicModelling_ByPost.ipynb
