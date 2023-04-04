@@ -1,23 +1,23 @@
-<h2 align='center'> 🔒🦠 COVID19 Anti-Lockdown 🦠🔒 </h2>
+<h2 align='center'> 🔒🦠 COVID-19 Anti-Lockdown 🦠🔒 </h2>
 
-## Business Problem Overview
+## Business Problem 
 - As COVID-19 spreads across the globe, many countries have instituted measures on freedom of movement to control the spread of the disease. For instance, citizens are not allowed to leave their homes except for work or buying essential supplies. With an individualistic culture in the US, several major protests were observed by libertarian supporters protecting individual freedoms. 
-- Therefore, we would like to explore the topic of Anti-Lockdown to understand how the general public are reacting to covid19 lockdown policies. Our guiding questions include:
+- Therefore, we would like to explore the topic of Anti-Lockdown to understand how the general public are reacting to lockdown policies. Our guiding questions include:
     - What are the sentiments and key topics social media users typically communicate after a lockdown policy is enforced? How have the sentiments and discussion topics changed overtime?
     - How are the negative sentiments towards COVID-19 lockdown circulated on social media platforms such as Twitter and Reddit?
     - Case study: One of the more brutal approaches to COVID-19 lockdown is from China’s government. What are the discussion topics and sentiments towards this policy on their social media platform, Weibo? How does it differ from Twitter (a more unfiltered platform)? 
-  - Our main intended audience are policymakers. The insights derived from our guiding questions will help policymakers to understand factors that drive resistance and craft more effective communication strategies. 
+- Our main intended audience are the policymakers. The insights derived from our guiding questions will help policymakers to understand factors that drive resistance and craft more effective communication strategies. 
 
 ## Objective 
-The objective of our analysis will cover Social Network Analysis to understand the network of users spreading negative sentiments, Text Sentiment Analysis to understand the different emotions faced by affected users and key occurring topics users to understand the discussions surrounding this topic on the social media platforms.
+The objective of our analysis will cover Social Network Analysis to understand the network of users spreading negative sentiments, Text Sentiment Analysis to understand the different emotions faced by affected users and lastly, Topic Modelling to understand the key occurring topics appearing in discussions on social media platforms.
 
-## Data Set
-- Generated through twitter API
-- Scraped from Reddit
+## Data Set Collection
+- Scraped from Twitter API, Snscrape
+- Scraped from Reddit API
 - Scraped from Weibo
 
-# Getting Start
-## Prerequisites
+# Get Started
+## Pre-requisites
 
 ### [python](<https://python.org>)
 
@@ -33,7 +33,7 @@ To compile the Terraform binary from source, clone the HashiCorp Terraform repos
 ```
 git clone https://github.com/hashicorp/terraform.git
 ```
-Navigate to the new directory. & Then, compile the binary. This command will compile the binary and store it in $GOPATH/bin/terraform.
+Navigate to the new directory. Then, compile the binary. This command will compile the binary and store it in $GOPATH/bin/terraform.
 ```
 cd terraform
 go install
@@ -41,16 +41,16 @@ go install
 Finally, make sure that the terraform binary is available on your PATH. This process will differ depending on your operating system.
 
 ### [AWS SDK](https://aws.amazon.com/sdk-for-javascript/)
-Installing the SDK for JavaScript
+Install the SDK for JavaScript
 ```
 npm install aws-sdk
 ```
-Set tempoaray credentials in the AWS credentials profile file on your local system, located at:
+Set temporary credentials in the AWS credentials profile file on your local system, located at:
 
 - ~/.aws/credentials on Linux, macOS, or Unix
 - C:\Users\USERNAME\.aws\credentials on Windows
 
-In the credentials file, paste the following placeholder text until you paste in working temporary credentials.
+In the credentials file, copy the following placeholder text and paste it in working temporary credentials.
 
 ```
 [default]
@@ -59,7 +59,7 @@ aws_secret_access_key=<value from AWS access portal>
 aws_session_token=<value from AWS access portal>
 ```
 
-Refer https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/signup-create-iam-user.html#setup-temp-creds for more details on basic setup to work with AWS services.
+Refer to https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/signup-create-iam-user.html#setup-temp-creds for more details on the basic setup to work with AWS Services.
 
 
 ## Building AWS Infrastructure
@@ -74,9 +74,9 @@ cd Infrastructure/terraform
 ```
 
 ### Dependencies Pre-installed
-Sadly, AWS Lambda has bad integration with numpy and pandas library as the version required is different for the same version of python 3.9. 
+Unfortunately, AWS Lambda has a bad integration with Pandas and Numpy libraries as the version required is different from the same version of python 3.9. 
 
-This project will help you with the installation of the dependencies required for the project. And it will also help you to create the AWS Lambda that able to run the code. 
+This guide will help you with the installation of the dependencies required for the project and it will also help you to create the AWS Lambda that is able to execute the code. 
 
 For the details, you may refer to [./Infrastructure/terraform/README.md](./Infrastructure/terraform/README.md)
 
@@ -84,21 +84,21 @@ For the details, you may refer to [./Infrastructure/terraform/README.md](./Infra
 Download numpy from [here](https://pypi.org/project/numpy/#files)
 
 `
-please noted that the version must be 1.24.2 with cp38 with manylinux
+Please note that the version must be 1.24.2 with cp38 with manylinux
 `
 
 `
-for example: pandas-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+For Example: pandas-1.24.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 `
 
 Download numpy from [here](https://pypi.org/project/numpy/#files)
 
 `
-please noted that the version must be 1.5.3 with cp38 with manylinux
+Please note that the version must be 1.5.3 with cp38 with manylinux
 `
 
 `
-for example: pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+For Example: pandas-1.5.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 `
 
 Once the package is downloaded, you may move the documents to the ./Infrastructure/code directory
@@ -110,7 +110,7 @@ Once the package is downloaded, you may move the documents to the ./Infrastructu
 cp var.tfvars.example var.tfvars
 ```
 
-2. Initalied terraform
+2. Initialize terraform
 ```
 terraform init
 ```
@@ -120,7 +120,7 @@ terraform apply -var-file=var.tfvars
 ```
 In this step, there will be a prompt to confirm the creation of the infrastructure. Type "yes" to continue. 
 
-4. If you wish to stop all services, destroy the infrastructure
+4. If you wish to stop all services, you can destroy the infrastructure
 ```
 terraform destroy -var-file=var.tfvars
 ```
@@ -137,7 +137,7 @@ terraform destroy -var-file=var.tfvars
 ```
 cd ./Reddit_Sentiment_Analysis && jupyter notebook
 ```
-this will start a jupyter notebook server at http://localhost:8888
+This will start a jupyter notebook server at http://localhost:8888
 
 ### Use Google Colab
 - [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
