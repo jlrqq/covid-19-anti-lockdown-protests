@@ -164,7 +164,7 @@ graph TD
 
 ### 3. Reddit:
 ```mermaid
-graph LR
+graph TD
     A[Reddit Scrape.ipynb] --> B[Reddit Scrape Comments.ipynb]
     B --> C[Text Sentiment Analysis.ipynb]
     C --> D[timeline.ipynb]
